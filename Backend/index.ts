@@ -4,6 +4,8 @@ import { signinSchema, signupSchema } from './Zodmodels';
 import { prisma } from './db';
 import { authMiddleware } from './authMIddleware';
 
+// added a comment
+
 const app = express();
 app.use(express.json());
 
